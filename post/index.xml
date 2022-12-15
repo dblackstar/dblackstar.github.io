@@ -17,15 +17,6 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     </item>
     
     <item>
-      <title>Welcome</title>
-      <link>https://rbs228.github.io/blog/</link>
-      <pubDate>Sun, 28 Sep 2014 02:13:50 +0000</pubDate>
-      
-      <guid>https://rbs228.github.io/blog/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.</description>
-    </item>
-    
-    <item>
       <title>(Hu)go Template Primer</title>
       <link>https://rbs228.github.io/goisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 02:13:50 +0000</pubDate>
