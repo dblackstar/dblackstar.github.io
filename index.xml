@@ -20,6 +20,15 @@ twitter</description>
     </item>
     
     <item>
+      <title>Generalites</title>
+      <link>https://rbs228.github.io/posts/rust-lang/basics/1-generalities/</link>
+      <pubDate>Sat, 17 Dec 2022 23:40:05 -0800</pubDate>
+      
+      <guid>https://rbs228.github.io/posts/rust-lang/basics/1-generalities/</guid>
+      <description>Généralités </description>
+    </item>
+    
+    <item>
       <title>Create 2D Game</title>
       <link>https://rbs228.github.io/projects/create-2d-game/</link>
       <pubDate>Sun, 18 Dec 2022 02:29:56 -0800</pubDate>
@@ -29,12 +38,48 @@ twitter</description>
     </item>
     
     <item>
+      <title>Installation des outils</title>
+      <link>https://rbs228.github.io/posts/rust-lang/basics/2-installation-des-outils/</link>
+      <pubDate>Sat, 17 Dec 2022 23:40:05 -0800</pubDate>
+      
+      <guid>https://rbs228.github.io/posts/rust-lang/basics/2-installation-des-outils/</guid>
+      <description>Installation des outils de dévéloppement </description>
+    </item>
+    
+    <item>
+      <title>Hello world</title>
+      <link>https://rbs228.github.io/posts/rust-lang/basics/3-hello-world/</link>
+      <pubDate>Sat, 17 Dec 2022 23:40:05 -0800</pubDate>
+      
+      <guid>https://rbs228.github.io/posts/rust-lang/basics/3-hello-world/</guid>
+      <description>Le traditionnel Hello world </description>
+    </item>
+    
+    <item>
       <title>Describe African Art</title>
       <link>https://rbs228.github.io/other/describe-african-art/</link>
       <pubDate>Sun, 18 Dec 2022 03:29:28 -0800</pubDate>
       
       <guid>https://rbs228.github.io/other/describe-african-art/</guid>
       <description>Who is aminata ? Art</description>
+    </item>
+    
+    <item>
+      <title>Fastcopy</title>
+      <link>https://rbs228.github.io/projects/fastcopy/</link>
+      <pubDate>Sun, 18 Dec 2022 03:16:25 -0800</pubDate>
+      
+      <guid>https://rbs228.github.io/projects/fastcopy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flappy Bird Game</title>
+      <link>https://rbs228.github.io/projects/flappy-bird-game/</link>
+      <pubDate>Sun, 18 Dec 2022 03:16:08 -0800</pubDate>
+      
+      <guid>https://rbs228.github.io/projects/flappy-bird-game/</guid>
+      <description></description>
     </item>
     
   </channel>
