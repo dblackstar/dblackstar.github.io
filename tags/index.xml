@@ -4,34 +4,6 @@
     <title>Tags on RBS</title>
     <link>https://rbs228.github.io/tags/</link>
     <description>Recent content in Tags on RBS</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 03 Apr 2015 02:13:50 +0000</lastBuildDate><atom:link href="https://rbs228.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Rust - les bases</title>
-      <link>https://rbs228.github.io/tags/rust-les-bases/</link>
-      <pubDate>Fri, 03 Apr 2015 02:13:50 +0000</pubDate>
-      
-      <guid>https://rbs228.github.io/tags/rust-les-bases/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rust - niveau avancé</title>
-      <link>https://rbs228.github.io/tags/rust-niveau-avanc%C3%A9/</link>
-      <pubDate>Fri, 03 Apr 2015 02:13:50 +0000</pubDate>
-      
-      <guid>https://rbs228.github.io/tags/rust-niveau-avanc%C3%A9/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rust - niveau intermediaire</title>
-      <link>https://rbs228.github.io/tags/rust-niveau-intermediaire/</link>
-      <pubDate>Fri, 03 Apr 2015 02:13:50 +0000</pubDate>
-      
-      <guid>https://rbs228.github.io/tags/rust-niveau-intermediaire/</guid>
-      <description></description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://rbs228.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
