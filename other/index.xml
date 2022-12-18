@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Others on RBS</title>
-    <link>https://rbs228.github.io/other/</link>
-    <description>Recent content in Others on RBS</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 18 Dec 2022 03:29:28 -0800</lastBuildDate><atom:link href="https://rbs228.github.io/other/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>https://rbs228.github.io/other/about/</link>
-      <pubDate>Sun, 18 Dec 2022 02:31:03 -0800</pubDate>
-      
-      <guid>https://rbs228.github.io/other/about/</guid>
-      <description>Who i&amp;rsquo;am ? Goog question. Well iam paguedem, african from Togo.
-What i like ? Yes, i like a lot of things hhhh: sharing, programming, art, &amp;hellip; i will complete after hhhh
-My education ? I&amp;rsquo;m a veterinary student.
-How to reach me ? email
-twitter</description>
-    </item>
-    
-    <item>
-      <title>Describe African Art</title>
-      <link>https://rbs228.github.io/other/describe-african-art/</link>
-      <pubDate>Sun, 18 Dec 2022 03:29:28 -0800</pubDate>
-      
-      <guid>https://rbs228.github.io/other/describe-african-art/</guid>
-      <description>Who is aminata ? Art</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Others on RBS</title>
+		<link>https://rbs228.github.io/other/</link>
+		<description>Recent content in Others on rbs228.github.io</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>© Copyright notice | Vitae theme for Hugo</copyright>
+		<lastBuildDate>Sun, 18 Dec 2022 03:29:28 -0800</lastBuildDate>
+		<atom:link href="https://rbs228.github.io/other/index.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>About</title>
+			<link>https://rbs228.github.io/other/about/</link>
+			<pubDate>Sun, 18 Dec 2022 02:31:03 -0800</pubDate>
+			<guid>https://rbs228.github.io/other/about/</guid>
+			<description>
+			Who i’am ? Goog question. Well iam paguedem, african from Togo.
+What i like ? Yes, i like a lot of things hhhh: sharing, programming, art, … …
+			</description>
+		</item>
+		<item>
+			<title>Describe African Art</title>
+			<link>https://rbs228.github.io/other/describe-african-art/</link>
+			<pubDate>Sun, 18 Dec 2022 03:29:28 -0800</pubDate>
+			<guid>https://rbs228.github.io/other/describe-african-art/</guid>
+			<description>
+			Who is aminata ? Art
+
+			</description>
+		</item>
+	</channel>
 </rss>

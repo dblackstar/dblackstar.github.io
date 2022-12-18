@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories on RBS</title>
-    <link>https://rbs228.github.io/categories/</link>
-    <description>Recent content in Categories on RBS</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://rbs228.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+	<channel>
+		<title>Categories on RBS</title>
+		<link>https://rbs228.github.io/categories/</link>
+		<description>Recent content in Categories on rbs228.github.io</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>© Copyright notice | Vitae theme for Hugo</copyright>
+		<lastBuildDate>Sat, 17 Dec 2022 23:40:05 -0800</lastBuildDate>
+		<atom:link href="https://rbs228.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Les bases du langage Rust</title>
+			<link>https://rbs228.github.io/categories/les-bases-du-langage-rust/</link>
+			<pubDate>Sat, 17 Dec 2022 23:40:05 -0800</pubDate>
+			<guid>https://rbs228.github.io/categories/les-bases-du-langage-rust/</guid>
+			<description>
+			
+			</description>
+		</item>
+	</channel>
 </rss>
