@@ -31,6 +31,23 @@ document.addEventListener("DOMContentLoaded", function() { renderMathInElement(d
 
 <meta itemprop="name" content="Tags">
 <meta itemprop="description" content="Blog about rust language and other stuff">
+
+
+<style>
+
+    .pagination-bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 2rem;
+    }
+    .pagination-bottom a{
+        padding: 10px;
+        background-color: rgb(218, 220, 221);
+        border: 1px solid rgb(224, 223, 223);
+    }
+</style>
 </head>
 <body>
 <header>
@@ -50,11 +67,11 @@ document.addEventListener("DOMContentLoaded", function() { renderMathInElement(d
 <div id="mainmenu">
 <nav>
 <ul>
-<li><a href="/">All Posts</a></li>
-<li><a href="/projects">Projects</a></li>
-<li><a href="/other">About</a></li>
+<li><a href="/">Posts</a></li>
+<li><a href="/projects">Projets</a></li>
 <li><a href="/tags">Tags</a></li>
-<li><a href="/categories">Categories</a></li>
+<li><a href="/categories">Catégories</a></li>
+<li><a href="/other">Autres</a></li>
 </ul>
 </nav>
 </div>
@@ -62,8 +79,10 @@ document.addEventListener("DOMContentLoaded", function() { renderMathInElement(d
 <main>
 <h1 class="page-title">Tags</h1>
 <div class="tag-cloud">
-<a style="font-size: 1em;" href="https://rbs228.github.io/tags/bases-rust/">bases-rust<sup>3</sup></a>
-<a style="font-size: 1em;" href="https://rbs228.github.io/tags/serie/">serie<sup>3</sup></a>
+<a style="font-size: 1em;" href="https://rbs228.github.io/tags/les-bases-de-rust/">les-bases-de-rust<sup>3</sup></a>
+<a style="font-size: 1em;" href="https://rbs228.github.io/tags/programmation/">programmation<sup>3</sup></a>
+<a style="font-size: 1em;" href="https://rbs228.github.io/tags/rust/">rust<sup>3</sup></a>
+<a style="font-size: 1em;" href="https://rbs228.github.io/tags/series/">series<sup>3</sup></a>
 </div>
 </main>
 <footer>

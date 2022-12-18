@@ -5,7 +5,7 @@
 		<link>https://rbs228.github.io/</link>
 		<description>Recent content on rbs228.github.io</description>
 		<generator>Hugo -- gohugo.io</generator>
-		<language>en-us</language>
+		<language>fr-FR</language>
 		<copyright>© Copyright notice | Vitae theme for Hugo</copyright>
 		<lastBuildDate>Sun, 18 Dec 2022 03:29:28 -0800</lastBuildDate>
 		<atom:link href="https://rbs228.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -20,12 +20,12 @@ What i like ? Yes, i like a lot of things hhhh: sharing, programming, art, … �
 			</description>
 		</item>
 		<item>
-			<title>Generalites</title>
+			<title>Généralités sur le langage Rust</title>
 			<link>https://rbs228.github.io/posts/1-generalities/</link>
-			<pubDate>Sat, 17 Dec 2022 23:40:05 -0800</pubDate>
+			<pubDate>Sun, 18 Dec 2022 00:00:00 +0000</pubDate>
 			<guid>https://rbs228.github.io/posts/1-generalities/</guid>
 			<description>
-			Example article description
+			Quelques informations sur Rust
 			</description>
 		</item>
 		<item>
@@ -40,19 +40,19 @@ What i like ? Yes, i like a lot of things hhhh: sharing, programming, art, … �
 		<item>
 			<title>Installation des outils</title>
 			<link>https://rbs228.github.io/posts/2-installation-des-outils/</link>
-			<pubDate>Sat, 17 Dec 2022 23:40:05 -0800</pubDate>
+			<pubDate>Sun, 18 Dec 2022 00:00:00 +0000</pubDate>
 			<guid>https://rbs228.github.io/posts/2-installation-des-outils/</guid>
 			<description>
-			Example article description
+			installation
 			</description>
 		</item>
 		<item>
-			<title>Hello world</title>
+			<title>Le Hello world et anatomie d&#39;un programme Rust</title>
 			<link>https://rbs228.github.io/posts/3-hello-world/</link>
-			<pubDate>Sat, 17 Dec 2022 23:40:05 -0800</pubDate>
+			<pubDate>Sun, 18 Dec 2022 00:00:00 +0000</pubDate>
 			<guid>https://rbs228.github.io/posts/3-hello-world/</guid>
 			<description>
-			Example article description
+			Les différentes parties d&#39;un programme Rust
 			</description>
 		</item>
 		<item>
