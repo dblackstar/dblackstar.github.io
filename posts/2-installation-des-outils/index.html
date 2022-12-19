@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() { renderMathInElement(d
 <meta itemprop="name" content="Installation des outils">
 <meta itemprop="description" content="installation"><meta itemprop="datePublished" content="2022-12-19T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2022-12-19T00:00:00+00:00" />
-<meta itemprop="wordCount" content="758">
+<meta itemprop="wordCount" content="776">
 <meta itemprop="keywords" content="Rust,series,Les bases de Rust,programmation," />
 
 
@@ -127,29 +127,28 @@ rbs
 <p>Avant ça c&rsquo;est quoi un langage de programmation ? c&rsquo;est quoi programmer ?</p>
 <p><strong>Programmer</strong>:
 <em>C&rsquo;est écrire une liste de chose que l&rsquo;ordinateur doit faire.</em>.</p>
-<p>Pour que l&rsquo;ordinateur le fasse, il faut qu&rsquo;il comprendre notre langue, qui est <code>l'Ewe</code>, <code>moba</code>, ou le <code>français</code>. Mais dans le domaine de technologie, on utilise les mots en <code>Anglais</code>.</p>
-<p>Donc on écris le programme en utilisant les lettres alphabétiques en général, <strong>sauf que l&rsquo;ordinateur ne comprend pas les lettres alphabétiques (A - Z), il ne comprend que :</strong> <em><strong>le langage binaire, un langage composé uniquement des <code>0</code> et <code>1</code></strong></em>.</p>
+<p>Généralement on écris les programme en utilisant les lettres alphabétiques, <strong>sauf que l&rsquo;ordinateur ne comprend pas les lettres alphabétiques (A - Z), il ne comprend que :</strong> <em><strong>le langage binaire, un langage composé uniquement des <code>0</code> et <code>1</code></strong></em>.</p>
 <p>Ecrire tout un programme avec des <code>0</code>et <code>1</code>, c&rsquo;est compliqué, et non productif.</p>
-<p>Par exemple: pour écrire <code>A</code> on dois écrire <code>01000001</code>. Imaginez donc un text de <code>100</code> lignes.</p>
-<p>Alors comment faire ? Et bien c&rsquo;est là que les langages de programmation entre en jeu.</p>
+<p>Par exemple: l&rsquo;équivalent de <code>A</code> en binaire c&rsquo;est: <code>01000001</code>. Imaginez donc les miliers de lignes pour coder un site web.</p>
+<p>Alors comment faire ? Et bien c&rsquo;est là que les langages de programmation entrent en jeu.</p>
 <p><strong>Un langage de progrmmation</strong>:
-<em>C&rsquo;est un système de notation pour écrire des programs compréhensibles par l&rsquo;ordinateur. Ici au lieu des alphabet(A-Z), on utilise <code>un ensemble de d'alphabets spécifique</code></em>.</p>
-<p>Par exemple: <code>if</code>, <code>else</code> etc&hellip;</p>
-<p>Lorsqu&rsquo;on finis d&rsquo;écrire avec ces mots spécifiques, ce n&rsquo;est toutjours pas le binaire, on a donc besoin de traduire ça en binaire(vous savez, le seul langage que l&rsquo;ordinateur comprend).</p>
-<p>Pour traduire on utilise soit <code>un compilateur</code>, soit <code>un interpréteur</code>. Cela dépend du langage programmation, certains demandent un interpréteur, d&rsquo;autres un compilateur.</p>
+<em>C&rsquo;est un système de notation pour écrire des programmes compréhensibles informatiques. On utilise <code>un ensemble d'alphabets</code>, qui forme des mots spécifiques. cet ensemble mots  sont appélés <strong>les mots clés ou réservés</strong></em>.</p>
+<p>Par exemple: <code>if</code>, <code>else</code> etc&hellip; En combinants ces mots on peut donc écrire des programmes.</p>
+<p>Lorsqu&rsquo;on finis d&rsquo;écrire en combinants ces mots clés, ce n&rsquo;est toujours pas le binaire, on a donc besoin de traduire ça en binaire(vous savez, le seul langage que l&rsquo;ordinateur comprend).</p>
+<p>Pour traduire on utilise soit <code>un compilateur</code>, soit <code>un interpréteur</code>. Cela dépend des langages programmation, certains demandent un interpréteur, d&rsquo;autres un compilateur.</p>
 <ol>
 <li>
-<p><strong><code>Un interpréteur :</code></strong> traduit votre fichier source ligne par ligne, à l&rsquo;ordinateur. Il traduit une ligne l&rsquo;ordinateur comprend, et l&rsquo;exécute, en suite une autre ligne. Ansi de suite jusqu&rsquo;à la fin de l&rsquo;exécution du programme. Les langages interprétés (ou qui ont besoin d&rsquo;un interpréteur) on a: <code>javascript</code>, <code>python</code>, <code>php</code> etc&hellip;</p>
+<p><strong><code>Un interpréteur :</code></strong> traduit votre fichier source ligne par ligne, à l&rsquo;ordinateur. Il traduit une ligne en binaire l&rsquo;ordinateur comprend, et l&rsquo;exécute, en suite une autre ligne. Ansi de suite jusqu&rsquo;à la fin de l&rsquo;exécution du programme. Les langages interprétés (ou qui ont besoin d&rsquo;un interpréteur) on a: <code>javascript</code>, <code>python</code>, <code>php</code> etc&hellip;</p>
 </li>
 <li>
-<p><strong><code>Un compilateur :</code></strong> traduit tout votre fichier source, d&rsquo;un seul coup, rassemble la traduction en un fichier, on donne ce dernier à l&rsquo;ordinateur, qui comprend et exécute tout le programme. Les langages compilés (ou qui ont besoin d&rsquo;un compilateur) on a: <code>Rust</code>, <code>C</code>, <code>C++</code>, <code>Golang</code> etc&hellip;</p>
+<p><strong><code>Un compilateur :</code></strong> traduit tout votre fichier source en binanire, d&rsquo;un seul coup, rassemble la traduction en un fichier qu&rsquo;on appel le fichier exécutable, on donne ce dernier à l&rsquo;ordinateur, qui comprend et exécute tout le programme. Les langages compilés (ou qui ont besoin d&rsquo;un compilateur) on a: <code>Rust</code>, <code>C</code>, <code>C++</code>, <code>Golang</code> etc&hellip;</p>
 </li>
 </ol>
-<p><strong>Le fichier source:</strong> <em>C&rsquo;est le fichier qui contient votre code</em></p>
+<p><strong>Le fichier source:</strong> <em>C&rsquo;est le fichier qui contient votre code écris avec les mots clés</em></p>
 <p><strong>Par analogie aux compilateur et interpréteur:</strong></p>
-<p><em>Les traducteurs des langues (à l&rsquo;ONU, ou les matchs de foot): ils ont le choix:</em></p>
-<p><em><strong>1. soit ils font la traductions au fur et à mésure qu&rsquo;on parle, c&rsquo;est à dire phrase, par phrase</strong></em></p>
-<p><em><strong>2. soit ils écoutent, jusqu&rsquo;à la fin et après ils font la traduction d&rsquo;un seul coup</strong></em></p>
+<p><em>Les traducteurs des langues (à l&rsquo;ONU, ou les matchs de foot) ils ont le choix:</em></p>
+<p><em><strong>1. soit ils font la traductions au fur et à mésure qu&rsquo;on parle, c&rsquo;est à dire phrase, par phrase(c&rsquo;est le cas de l&rsquo;interpréteur)</strong></em></p>
+<p><em><strong>2. soit ils écoutent, jusqu&rsquo;à la fin et après ils font la traduction d&rsquo;un seul coup(c&rsquo;est le cas du compilateur)</strong></em></p>
 <p>Donc si on analyse bien pour apprendre le langage Rust:</p>
 <ol>
 <li>Rust est compilé, donc on a besoin d&rsquo;un <code>compilateur</code>.</li>
@@ -158,9 +157,9 @@ rbs
 <p><figure>
   <img src="/programming-flow.png" alt="Programming flow"  />
 </figure></p>
-<h3 id="2-les-différentes-choix-possibles">2. Les différentes choix possibles</h3>
+<h3 id="2-les-différents-choix-possibles">2. Les différents choix possibles</h3>
 <ul>
-<li><em><strong>Les plateformes en ligne :</strong></em> Vous pouvez apprendre Rust sans installer quoi que ce soit sur votre machine, il existent des sites web qui mettent à votre disposition (gratuitement) : un compilateur et un éditeur de code.</li>
+<li><em><strong>Les plateformes en ligne :</strong></em> Vous pouvez apprendre Rust sans installer quoi que ce soit sur votre machine, il existe des sites web qui mettent à votre disposition (gratuitement) : un compilateur et un éditeur de code.</li>
 </ul>
 <p>Je vous recommande <a href="https://play.rust-lang.org/" target="_blank">Rust Playground</a></p>
 <ol>
@@ -173,12 +172,12 @@ rbs
   <img src="/playground.png" alt="Rust Playground"  />
 </figure></p>
 <ul>
-<li><em><strong>Les environnements de développement intégré ou IDE :</strong></em> Ce sont des logiciels qui contiennent l&rsquo;éditeur, l&rsquo;interpréteur et d&rsquo;autres choses utiles au développement des programmes. Ces programmes sont disponibles, sur Windows, MacOS, Linux</li>
+<li><em><strong>Les environnements de développement intégré ou IDE :</strong></em> Ce sont des logiciels qui contiennent l&rsquo;éditeur, le compilateur et d&rsquo;autres choses utiles au développement des programmes. Ces programmes sont disponibles, sur Windows, MacOS, Linux</li>
 </ul>
-<p>Je vous recommand  <a href="https://www.jetbrains.com/idea/download/#section=linux" target="_blank">IntelliJ Idea</a></p>
+<p>Je vous recommande  <a href="https://www.jetbrains.com/idea/download/#section=linux" target="_blank">IntelliJ Idea</a></p>
 <p><em>Je ferais un article spécial pour la configuration de intelliJ.</em></p>
 <ul>
-<li><em><strong>Installation séparé :</strong></em> Ici on installe les programmes programme qu&rsquo;on a besoin (compilateur, éditeur de text), séparément.</li>
+<li><em><strong>Installation séparé :</strong></em> Ici on installe les programmes qu&rsquo;on a besoin (compilateur, éditeur de text), séparément.</li>
 </ul>
 <p>C&rsquo;est le choix que je vais opter pour ce cours, cela nous permettra d&rsquo;apprendre à utiliser ces programmes et surtout ne pas dépendre de ces plateformes ou IDE.</p>
 <ol>
@@ -191,10 +190,10 @@ rbs
 <blockquote>
 <p>curl &ndash;proto &lsquo;=https&rsquo; &ndash;tlsv1.2 -sSf <a href="https://sh.rustup.rs" target="_blank">https://sh.rustup.rs</a> | sh</p>
 </blockquote>
-<p>Collez sur le terminal et appuyez sur entrez</p>
+<p>Collez sur votre terminal et appuyez sur entrez</p>
 <ul>
 <li>Vous verez 3 options, <strong>choisissez la première</strong></li>
-<li>Après l&rsquo;installation <strong>fermez</strong> pui <strong>reouvrez</strong> le terminal</li>
+<li>Après l&rsquo;installation <strong>fermez</strong> puis <strong>reouvrez</strong> le terminal</li>
 <li>tapez cette commande:</li>
 </ul>
 <blockquote>
@@ -213,8 +212,9 @@ rbs
 <li>Allez sur <a href="https://www.rust-lang.org/tools/install" target="_blank">Le site de Rust</a></li>
 <li>Téléchargez l&rsquo;éxécutable de Rustup (l&rsquo;outil d&rsquo;installation).</li>
 <li>Lancez l&rsquo;éxécutable, suivez les instructions.</li>
+<li>Vous verez 3 options, <strong>choisissez la première</strong></li>
 <li>Ils vont demander d&rsquo;installer <a href="https://visualstudio.microsoft.com/visual-cpp-build-tools/" target="_blank">Visual Studio C++ Build tools</a></li>
-<li>Lors de l&rsquo;installation de ce VSC++ selectionnez <code>C++ tools</code>.</li>
+<li>Lors de l&rsquo;installation de <code>Visual Studio C++ Build tools</code> selectionnez <code>C++ tools</code>.</li>
 <li>Après l&rsquo;installation <strong>fermez</strong> pui <strong>reouvrez</strong> le terminal</li>
 <li>tapez cette commande:</li>
 </ul>
@@ -227,7 +227,7 @@ rbs
   <img src="/rustcversionw.png" alt="Rustc"  />
 </figure></li>
 </ul>
-<h3 id="cest-bon-pour-linstallation-je-crois-quon-est-bon-pour-commencer-à-programmer-en-rustle-langage-des-stars-">C&rsquo;est bon pour l&rsquo;installation, je crois qu&rsquo;on est bon, pour commencer à programmer en RUST(le langage des stars 😆)</h3>
+<h3 id="je-crois-quon-est-bon-pour-commencer-à-programmer-en-rustle-langage-des-stars-">Je crois qu&rsquo;on est bon, pour commencer à programmer en RUST(le langage des stars 😆)</h3>
 <h3 id="si-vous-avez-des-soucis-dinstallation-écrivez-moi-sur-sur-twitterhttpstwittercomdrealblackstar"><code>Si vous avez des soucis d'installation écrivez moi sur</code> <a href="https://twitter.com/drealblackstar" target="_blank">sur twitter</a></h3>
 
 
