@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() { renderMathInElement(d
 <meta itemprop="name" content="Généralités sur le langage Rust">
 <meta itemprop="description" content="Quelques informations sur Rust"><meta itemprop="datePublished" content="2022-12-18T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2022-12-18T00:00:00+00:00" />
-<meta itemprop="wordCount" content="368">
+<meta itemprop="wordCount" content="375">
 <meta itemprop="keywords" content="Rust,series,Les bases de Rust,programmation," />
 
 
@@ -52,6 +52,14 @@ document.addEventListener("DOMContentLoaded", function() { renderMathInElement(d
         background-color: rgb(218, 220, 221);
         border: 1px solid rgb(224, 223, 223);
     }
+
+    h1, h2 {
+        color:crimson;
+    }
+    h3, h4 {
+        color:rgb(102, 75, 201);
+    }
+    
 </style>
 </head>
 <body>
@@ -123,35 +131,35 @@ rbs
 <h3 id="historique-de-rust"><strong>historique de Rust</strong></h3>
 <p>Le programmeur <strong>graydon hoare</strong>, a commencé le projet Rust en 2006 quand il travaillait chez Mozilla. Plutard l&rsquo;entreprise a parrainé le projet et l&rsquo;a annoncé en 2010. En suite la première version stable du langage est sortie en 2015.</p>
 <h3 id="cest-quoi-rust-"><strong>C&rsquo;est quoi Rust ?</strong></h3>
-<p>Rust est un langage de <code>programmation système</code>, <code>compilé``, </code>parallèle<code>et</code>concurrent<code>qui prône la</code>sécurité<code>de la mémoire tout en étant</code>performant`.</p>
+<p>Rust est un langage de <code>programmation système</code>, <code>compilé</code>, <code>parallèle</code>, et <code>concurrent</code> qui prône la <code>sécurité</code> de la mémoire tout en étant <code>performant</code>.</p>
 <p>Rust s&rsquo;inspire des langages <code>C/C++</code> en terme de performance et syntaxiquement des langages tels que <code>Haskell</code>, <code>Erlang</code> etc..</p>
 <h3 id="a-quoi-sert-rust-"><strong>A quoi sert Rust ?</strong></h3>
 <h4 id="rust-est-principalement-utilisé-"><strong>Rust est principalement utilisé :</strong></h4>
 <ol>
 <li>
-<p>Dans création des application système : <em><strong>serveurs</strong></em>, <em><strong>les parfeux</strong></em>, <em><strong>les les compilateurs</strong></em>, <em><strong>les bootloaders</strong></em>, <em><strong>les noyaux des Os</strong></em>  etc&hellip; En gros les application dont l&rsquo;utilisateurs n&rsquo;entre pas en contacte directement.</p>
+<p>Dans création des application système : <em><strong>serveurs</strong></em>, <em><strong>les parfeux</strong></em>, <em><strong>les compilateurs</strong></em>, <em><strong>les bootloaders</strong></em>, <em><strong>les noyaux des Os</strong></em>  etc&hellip; En gros les applications dont l&rsquo;utilisateur n&rsquo;entre pas en contact directement.</p>
 </li>
 <li>
-<p>Dans les systèmes embarqués : <em><strong>le bios</strong></em>, <em><strong>les microcontrolleurs</strong></em>, <em><strong>Arduino</strong></em>, <em><strong>Les IoT</strong></em> etc&hellip;</p>
+<p>Dans les systèmes embarqués : <em><strong>le bios</strong></em>, <em><strong>les microcontrolleurs</strong></em>, <em><strong>Les IoT</strong></em> etc&hellip;</p>
 </li>
 <li>
-<p>Les systèmes distribués qui demandent de la performance : <em><strong>Les moteurs de recherches</strong></em>, <em><strong>Les systèmes de paiements en ligne</strong></em>, <em><strong>Les blockchaines</strong></em>.</p>
+<p>Les systèmes distribués qui demandent de la performance : <em><strong>Les moteurs de recherches</strong></em>, <em><strong>Les systèmes de paiements en ligne</strong></em>, <em><strong>Les blockchaines</strong></em>, <em><strong>Les clouds</strong></em> etc&hellip;.</p>
 </li>
 <li>
-<p>Les outils de la lignes de commandes/</p>
+<p>Les outils en lignes de commandes.</p>
 </li>
 </ol>
 <h4 id="rust-est-aussi-utilisé-"><strong>Rust est aussi utilisé :</strong></h4>
 <ol>
-<li>Dans le Web :  pour créer des applications web sécurisé et performante  en <em><strong>Backend</strong></em> et <em><strong>frontend</strong></em>.</li>
+<li>Dans le Web :  pour créer des applications web sécurisée et performantes en <em><strong>Backend</strong></em> et <em><strong>frontend</strong></em>.</li>
 </ol>
 <p>Rust est utilisé là où il y demande de : <code>sécurité</code> ⛑️, <code>Rapidité ou performance</code> ⏩</p>
 <h3 id="qui-utilise-rust-"><strong>Qui utilise Rust ?:</strong></h3>
 <p>Chaque année depuis 2016 Rust est voté sur stackoverflow <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, comme étant le langage de programmation le plus aimé par les dévéloppeurs.</p>
 <p>Les grandes entreprises telques : <code>Google</code>,<code>Microsoft</code>,<code>Amazon</code>, <code>Dropbox</code>, <code>Shopify</code>, <code>Meta</code> et bien d&rsquo;autres entreprises<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> ont adopté Rust très tôt.</p>
 <h3 id="les-ressources-pour-apprendre-rust"><strong>Les ressources pour apprendre Rust</strong></h3>
-<p>Dans cette série d&rsquo;articles nous allons apprendre ensemble ce langage tant aimé. Je vais supposé que vous êtes débutant en programmation, comme cela le contenu couvrira tous les apprenants.</p>
-<p>Vous pouvez me joindre  <a href="https://twitter.com/drealblackstar" target="_blank">sur twitter</a> si vous avez corrections à me suggérer ou des questions.</p>
+<p>Dans cette série d&rsquo;articles nous allons apprendre ensemble ce langage tant aimé. Je vais supposer que vous êtes débutant(e) en programmation, comme cela le contenu couvrira tous le monde.</p>
+<p>Vous pouvez me joindre  <a href="https://twitter.com/drealblackstar" target="_blank">sur twitter</a> si vous avez des corrections à me suggérer ou des questions.</p>
 <p>Voici quelques ressources utiles de plus pour approfondir vos connaissances:</p>
 <p><strong>En français 🇫🇷</strong></p>
 <ol>

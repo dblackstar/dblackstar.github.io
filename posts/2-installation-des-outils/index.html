@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() { renderMathInElement(d
 <meta itemprop="name" content="Installation des outils">
 <meta itemprop="description" content="installation"><meta itemprop="datePublished" content="2022-12-19T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2022-12-19T00:00:00+00:00" />
-<meta itemprop="wordCount" content="776">
+<meta itemprop="wordCount" content="868">
 <meta itemprop="keywords" content="Rust,series,Les bases de Rust,programmation," />
 
 
@@ -52,6 +52,14 @@ document.addEventListener("DOMContentLoaded", function() { renderMathInElement(d
         background-color: rgb(218, 220, 221);
         border: 1px solid rgb(224, 223, 223);
     }
+
+    h1, h2 {
+        color:crimson;
+    }
+    h3, h4 {
+        color:rgb(102, 75, 201);
+    }
+    
 </style>
 </head>
 <body>
@@ -123,7 +131,7 @@ rbs
 </ul>
 </li>
 </ol>
-<h3 id="1-de-quoi-avons-nous-besoin-pour-apprendre-rust-">1. De quoi avons nous besoin pour apprendre Rust ?</h3>
+<h2 id="1-de-quoi-avons-nous-besoin-pour-apprendre-rust-">1. De quoi avons nous besoin pour apprendre Rust ?</h2>
 <p>Avant ça c&rsquo;est quoi un langage de programmation ? c&rsquo;est quoi programmer ?</p>
 <p><strong>Programmer</strong>:
 <em>C&rsquo;est écrire une liste de chose que l&rsquo;ordinateur doit faire.</em>.</p>
@@ -157,10 +165,9 @@ rbs
 <p><figure>
   <img src="/programming-flow.png" alt="Programming flow"  />
 </figure></p>
-<h3 id="2-les-différents-choix-possibles">2. Les différents choix possibles</h3>
-<ul>
-<li><em><strong>Les plateformes en ligne :</strong></em> Vous pouvez apprendre Rust sans installer quoi que ce soit sur votre machine, il existe des sites web qui mettent à votre disposition (gratuitement) : un compilateur et un éditeur de code.</li>
-</ul>
+<h2 id="2-les-différents-choix-dinstallations-possibles">2. Les différents choix d&rsquo;installations possibles</h2>
+<h3 id="les-plateformes-en-ligne-">Les plateformes en ligne :</h3>
+<p>Vous pouvez apprendre Rust sans installer quoi que ce soit sur votre machine, il existe des sites web qui mettent à votre disposition (gratuitement) : un compilateur et un éditeur de code.</p>
 <p>Je vous recommande <a href="https://play.rust-lang.org/" target="_blank">Rust Playground</a></p>
 <ol>
 <li>Allez sur le site</li>
@@ -171,18 +178,18 @@ rbs
 <p><figure>
   <img src="/playground.png" alt="Rust Playground"  />
 </figure></p>
-<ul>
-<li><em><strong>Les environnements de développement intégré ou IDE :</strong></em> Ce sont des logiciels qui contiennent l&rsquo;éditeur, le compilateur et d&rsquo;autres choses utiles au développement des programmes. Ces programmes sont disponibles, sur Windows, MacOS, Linux</li>
-</ul>
+<h3 id="les-environnements-de-développement-intégré-ou-ide-">Les environnements de développement intégré ou IDE :</h3>
+<p>Ce sont des logiciels qui contiennent l&rsquo;éditeur, le compilateur et d&rsquo;autres choses utiles au développement des programmes. Ces programmes sont disponibles, sur Windows, MacOS, Linux</p>
 <p>Je vous recommande  <a href="https://www.jetbrains.com/idea/download/#section=linux" target="_blank">IntelliJ Idea</a></p>
 <p><em>Je ferais un article spécial pour la configuration de intelliJ.</em></p>
-<ul>
-<li><em><strong>Installation séparé :</strong></em> Ici on installe les programmes qu&rsquo;on a besoin (compilateur, éditeur de text), séparément.</li>
-</ul>
+<h3 id="installation-séparé-">Installation séparé :</h3>
+<p>Ici on installe les programmes qu&rsquo;on a besoin (compilateur, éditeur de text), séparément.</p>
 <p>C&rsquo;est le choix que je vais opter pour ce cours, cela nous permettra d&rsquo;apprendre à utiliser ces programmes et surtout ne pas dépendre de ces plateformes ou IDE.</p>
 <ol>
 <li><strong>Sous Linux</strong>: C&rsquo;est très simple</li>
 </ol>
+<hr>
+<p><strong>Installation du compilateur Rust</strong></p>
 <ul>
 <li>Allez sur <a href="https://www.rust-lang.org/tools/install" target="_blank">Le site de Rust</a></li>
 <li>Téléchargez Rustup (l&rsquo;outil d&rsquo;installation). Copiez cette ligne depuis le site</li>
@@ -200,14 +207,26 @@ rbs
 <p>rustc &ndash;version</p>
 </blockquote>
 <ul>
-<li>Vous verez la version de Rust.
+<li>
+<p>Vous verez la version de Rust.
 <figure>
   <img src="/rustcversion.png" alt="Rustc"  />
-</figure></li>
+</figure></p>
+</li>
+<li>
+<p><em>Installation de l&rsquo;éditeur de text</em> :</p>
+</li>
 </ul>
+<p>Ici j&rsquo;ai choisi <a href="https://code.visualstudio.com/" target="_blank">vscode</a>, c&rsquo;est un éditeur de code riche en fonctionnalités qui nous aidera dans l&rsquo;apprentissage de Rust.</p>
+<p>Mais vous pouvez utiliser celui que vous voulez : <code>vim</code>, <code>Sublime text</code>, <code>atome</code> etc&hellip;
+Le téléchargez et lancez l&rsquo;installation avec cette command dans le terminal:</p>
+<blockquote>
+<p>sudo dpkg -i nom_du_package_que_vous_avez_.deb</p>
+</blockquote>
 <ol start="2">
-<li><strong>Sous Windows</strong>: C&rsquo;est pas très simple.</li>
+<li><strong>Sous Windows</strong>: Ce n&rsquo;est pas très simple.</li>
 </ol>
+<hr>
 <ul>
 <li>Allez sur <a href="https://www.rust-lang.org/tools/install" target="_blank">Le site de Rust</a></li>
 <li>Téléchargez l&rsquo;éxécutable de Rustup (l&rsquo;outil d&rsquo;installation).</li>
@@ -222,11 +241,18 @@ rbs
 <p>rustc &ndash;version</p>
 </blockquote>
 <ul>
-<li>Vous verez la version de Rust.
+<li>
+<p>Vous verez la version de Rust.
 <figure>
   <img src="/rustcversionw.png" alt="Rustc"  />
-</figure></li>
+</figure></p>
+</li>
+<li>
+<p><em>Installation de l&rsquo;éditeur de text</em> :
+Ici j&rsquo;ai choisi <a href="https://code.visualstudio.com/" target="_blank">vscode</a>, c&rsquo;est un éditeur de code riche en fonctionnalités qui nous aidera dans l&rsquo;apprentissage de Rust.</p>
+</li>
 </ul>
+<p>Le téléchargez et lancez l&rsquo;installation tout simplement</p>
 <h3 id="je-crois-quon-est-bon-pour-commencer-à-programmer-en-rustle-langage-des-stars-">Je crois qu&rsquo;on est bon, pour commencer à programmer en RUST(le langage des stars 😆)</h3>
 <h3 id="si-vous-avez-des-soucis-dinstallation-écrivez-moi-sur-sur-twitterhttpstwittercomdrealblackstar"><code>Si vous avez des soucis d'installation écrivez moi sur</code> <a href="https://twitter.com/drealblackstar" target="_blank">sur twitter</a></h3>
 
