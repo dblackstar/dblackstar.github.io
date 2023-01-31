@@ -2,19 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rbs228.github.io/posts/configurer-un-projet-rust/</loc>
+    <lastmod>2023-01-03T15:32:31-08:00</lastmod>
+  </url><url>
     <loc>https://rbs228.github.io/other/about/</loc>
     <lastmod>2022-12-18T02:31:03-08:00</lastmod>
+  </url><url>
+    <loc>https://rbs228.github.io/categories/</loc>
+    <lastmod>2023-01-03T15:32:31-08:00</lastmod>
+  </url><url>
+    <loc>https://rbs228.github.io/tags/les-bases-de-rust/</loc>
+    <lastmod>2023-01-03T15:32:31-08:00</lastmod>
+  </url><url>
+    <loc>https://rbs228.github.io/posts/</loc>
+    <lastmod>2023-01-03T15:32:31-08:00</lastmod>
+  </url><url>
+    <loc>https://rbs228.github.io/tags/programmation/</loc>
+    <lastmod>2023-01-03T15:32:31-08:00</lastmod>
+  </url><url>
+    <loc>https://rbs228.github.io/categories/projet-rust/</loc>
+    <lastmod>2023-01-03T15:32:31-08:00</lastmod>
+  </url><url>
+    <loc>https://rbs228.github.io/</loc>
+    <lastmod>2023-01-03T15:32:31-08:00</lastmod>
+  </url><url>
+    <loc>https://rbs228.github.io/tags/rust/</loc>
+    <lastmod>2023-01-03T15:32:31-08:00</lastmod>
+  </url><url>
+    <loc>https://rbs228.github.io/categories/rust/</loc>
+    <lastmod>2023-01-03T15:32:31-08:00</lastmod>
+  </url><url>
+    <loc>https://rbs228.github.io/tags/series/</loc>
+    <lastmod>2023-01-03T15:32:31-08:00</lastmod>
+  </url><url>
+    <loc>https://rbs228.github.io/tags/</loc>
+    <lastmod>2023-01-03T15:32:31-08:00</lastmod>
+  </url><url>
+    <loc>https://rbs228.github.io/categories/tutos-rust/</loc>
+    <lastmod>2023-01-03T15:32:31-08:00</lastmod>
   </url><url>
     <loc>https://rbs228.github.io/other/</loc>
     <lastmod>2022-12-18T02:31:03-08:00</lastmod>
   </url><url>
-    <loc>https://rbs228.github.io/</loc>
-    <lastmod>2022-12-18T02:31:03-08:00</lastmod>
-  </url><url>
-    <loc>https://rbs228.github.io/categories/</loc>
-  </url><url>
     <loc>https://rbs228.github.io/series/</loc>
-  </url><url>
-    <loc>https://rbs228.github.io/tags/</loc>
   </url>
 </urlset>
